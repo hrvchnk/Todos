@@ -8,7 +8,7 @@ import SvgIcon from './SvgIcon';
 
 const iconSizes = Sizes.iconSizes;
 
-export default function GradientIcon({ name, size, color, theme }) {
+export default function GradientIcon({ name, size, color }) {
 	const colorScheme = useColorScheme();
 
 	const gradientColors = Colors.gradients[colorScheme][color];
